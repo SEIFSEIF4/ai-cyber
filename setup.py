@@ -11,10 +11,10 @@ setup(
         "setuptools>=42.0.0"
     ],
     author="Seifelesllam Seif",
-    author_email="seifsaif151@example.com",
+    author_email="seifsaif151@gmail.com",
     description="Evolutionary Algorithm for solving the Travelling Salesman Problem",
     keywords="tsp, evolutionary algorithm, optimization",
-    url="https://github.com/SEIFSEIF4/tsp-evolutionary-algorithm",
+    url="https://github.com/SEIFSEIF4/ai-cyber.git",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
