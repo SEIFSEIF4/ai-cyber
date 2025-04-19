@@ -1,0 +1,161 @@
+{
+  "cities": {
+    "named_cities": {
+      "city_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "coordinates": [
+        [
+          60,
+          200
+        ],
+        [
+          180,
+          200
+        ],
+        [
+          80,
+          180
+        ],
+        [
+          140,
+          180
+        ],
+        [
+          20,
+          160
+        ],
+        [
+          100,
+          160
+        ],
+        [
+          200,
+          160
+        ],
+        [
+          140,
+          140
+        ],
+        [
+          40,
+          120
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          180,
+          100
+        ],
+        [
+          60,
+          80
+        ],
+        [
+          120,
+          80
+        ],
+        [
+          180,
+          60
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          100,
+          40
+        ],
+        [
+          200,
+          40
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          60,
+          20
+        ],
+        [
+          160,
+          20
+        ]
+      ]
+    },
+    "random_cities": {
+      "count": 20,
+      "min_x": 0,
+      "max_x": 200,
+      "min_y": 0,
+      "max_y": 200
+    }
+  },
+  "algorithm": {
+    "population_size": 100,
+    "tournament_size": 5,
+    "mutation_rate": 0.01,
+    "n_offsprings": 30,
+    "n_epochs": 500,
+    "crossover_alpha": 0.5,
+    "verbose": true
+  },
+  "output": {
+    "results_dir": "results",
+    "save_plots": true,
+    "show_plots": true
+  },
+  "parameter_comparison": [
+    {
+      "name": "Default",
+      "population_size": 100,
+      "tournament_size": 5,
+      "mutation_rate": 0.01,
+      "n_epochs": 300
+    },
+    {
+      "name": "High Mutation",
+      "population_size": 100,
+      "tournament_size": 5,
+      "mutation_rate": 0.05,
+      "n_epochs": 300
+    },
+    {
+      "name": "Large Population",
+      "population_size": 200,
+      "tournament_size": 5,
+      "mutation_rate": 0.01,
+      "n_epochs": 300
+    },
+    {
+      "name": "Large Tournament",
+      "population_size": 100,
+      "tournament_size": 10,
+      "mutation_rate": 0.01,
+      "n_epochs": 300
+    }
+  ]
+}
